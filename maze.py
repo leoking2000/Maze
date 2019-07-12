@@ -230,7 +230,7 @@ def game(maze):
             win = maze.move_left()
         elif commant == 'd' :
             win = maze.move_right()
-        elif commant == 'c'  :
+        elif commant == 'change'  :
             maze.change_maze()          
         
         if win == True :
